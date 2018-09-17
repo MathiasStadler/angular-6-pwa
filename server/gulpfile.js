@@ -8,4 +8,3 @@ gulp.task("build", function() {
     .pipe(tsProject())
     .js.pipe(gulp.dest("./dist"));
 });
-gu;

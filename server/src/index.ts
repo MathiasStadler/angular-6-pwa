@@ -1,3 +1,4 @@
-export { Message } from "./message";
-export { ChatMessage } from "./chat-message";
-export { User } from "./user";
+import { ChatServer } from "./chat-server";
+
+let app = new ChatServer().getApp();
+export { app };
